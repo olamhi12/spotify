@@ -1,0 +1,122 @@
+main {
+  height: 800px;
+  width: full;
+  background-color: black;
+  border-radius: 5px;
+}
+.left {
+  display: flex;
+  gap: 3px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.imgleft {
+  width: 30px;
+  height: 30px;
+}
+h3 {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  padding-top: 8px;
+}
+.middlecontent {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+.mail {
+  font-weight: bold;
+}
+input {
+  background-color: rgba(0, 0, 0, 0.267);
+  border: 0.5px solid white;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+.nodesign {
+  margin-top: 9px;
+  color: rgb(13, 173, 13);
+}
+button {
+  margin-top: 15px;
+  background-color: rgb(13, 173, 13);
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+}
+.span {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.line {
+  height: 0;
+  width: 150px;
+  border: 1px solid white;
+}
+.firstanchor {
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.secondanchor {
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.thirdanchor {
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.lastline {
+  margin-top: 20px;
+  height: 0;
+  width: 350px;
+  border: 0.1px solid rgba(255, 255, 255, 0.26);
+}
+form {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 80%;
+}
+.last {
+  display: flex;
+  gap: 3px;
+}
+.lasta {
+  text-decoration: none;
+  margin-top: 15px;
+}
