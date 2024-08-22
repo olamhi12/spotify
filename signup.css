@@ -1,8 +1,11 @@
-main {
-  height: 800px;
-  width: full;
+body {
   background-color: black;
   border-radius: 5px;
+}
+main {
+  height: 800px;
+  width: 100%;
+  background-color: black;
 }
 .left {
   display: flex;
@@ -105,7 +108,7 @@ button {
   width: 350px;
   border: 0.1px solid rgba(255, 255, 255, 0.26);
 }
-form {
+#close {
   height: 200px;
   width: 100%;
   background-color: white;
@@ -119,4 +122,17 @@ form {
 .lasta {
   text-decoration: none;
   margin-top: 15px;
+}
+.open {
+display: none !important;
+position: relative;
+}
+h2 {
+  font-weight: bold;
+  position: absolute;
+  right: 30px;
+  top: 2px;
+}
+h2:hover {
+  cursor: pointer;
 }
